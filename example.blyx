@@ -1,0 +1,12 @@
+use richness;
+
+fn main() {
+    let counts = [0, 1, 3, 1];
+    let result = richness_observe(counts);
+    if len(result) == 0 { println!("invalid"); return; }
+    let mut i = 0;
+    while i < len(result) {
+        println!(at(result, i));
+        i += 1;
+    }
+}
